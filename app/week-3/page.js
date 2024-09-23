@@ -1,4 +1,3 @@
-import React from "react";
 import ItemList from "./item-list.js";
 
 export default function Page() {
