@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function ItemList() {
   const [sortBy, setSortBy] = useState("name");
 
-  const items = itemsJson;
+  const items = [...itemsJson];
 
   const groupByCategory = (items) => {
     return items.reduce((grouped, item) => {
